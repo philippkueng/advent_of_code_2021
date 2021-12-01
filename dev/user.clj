@@ -8,7 +8,7 @@
 (clerk/serve! {:watch-paths ["notebooks"] :show-filter-fn #(clojure.string/starts-with? % "notebooks")})
 
 ;; either call `clerk/show!` explicitly
-(clerk/show! "notebooks/days.clj")
+(clerk/show! "notebooks/day_01.clj")
 
 ;; or let Clerk watch the given `:paths` for changes
 #_(clerk/serve! {:watch-paths ["notebooks" "src"]})
