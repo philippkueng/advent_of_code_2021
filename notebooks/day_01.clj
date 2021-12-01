@@ -29,9 +29,28 @@
 
 (number-of-increases sample-depths)
 
+;; 3 measurement sliding window
+
+(defn sliding-windows
+  [depths]
+  (let [indexes (->> depths count range (drop-last 2))]
+    (for [index indexes]
+      (+
+        (nth depths index)
+        (nth depths (inc index))
+        (nth depths (+ 2 index))))))
+
+(->> sample-depths
+  sliding-windows
+  number-of-increases)
+
+
 ;; # Working on the final data
 
 (def depths (read-data "data/day01.txt"))
 
 (number-of-increases depths)
 
+(->> depths
+  sliding-windows
+  number-of-increases)
