@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: com.cognitect/http-client:0.1.106">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cognitect/http-client/0.1.106/http-client-0.1.106.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

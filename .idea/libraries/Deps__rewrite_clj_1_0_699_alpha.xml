@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: rewrite-clj:1.0.699-alpha">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/rewrite-clj/rewrite-clj/1.0.699-alpha/rewrite-clj-1.0.699-alpha.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
